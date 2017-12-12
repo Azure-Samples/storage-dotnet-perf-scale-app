@@ -199,7 +199,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/georgewallace/storage-dotnet-perf-scale-app/master/setup_env.ps1"
+            "https://raw.githubusercontent.com/azure-samples/storage-dotnet-perf-scale-app/master/setup_env.ps1"
           ],
           "commandToExecute": "[concat('powershell -ExecutionPolicy Unrestricted -file setup_env.ps1 ', variables('storageAccountName'), ' ', listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName')), providers('Microsoft.Storage', 'storageAccounts').apiVersions[0]).keys[0].value)]"
         }

@@ -8,7 +8,7 @@ author: georgewallace
 
 This is an <a href="http://azure.microsoft.com/en-us/services/storage/">Azure storage</a> demo that creates a DS14v2 virtual machine with 50 1GB random files that are uploaded and downloaded to a storage account to showcase scalability and performance when using the Azure storage SDK.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fgeorgewallace%2Fstorage-dotnet-perf-scale-app%2Fmaster%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fazure-samples%2Fstorage-dotnet-perf-scale-app%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
