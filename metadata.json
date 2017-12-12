@@ -1,0 +1,8 @@
+{
+  "itemDisplayName": "Deploy a Windows VM used for interacting with Azure storage",
+  "icon": "windows",
+  "description": "This template allows you to deploy a Windows VM using a few different options for the OS version, using the latest patched version. This will deploy a D14v2 size VM in the resource group location and return the FQDN of the VM.",
+  "summary": "This template takes a minimum amount of parameters and deploys a Windows VM, using the latest patched version.",
+  "githubUsername": "georgewallace",
+  "dateUpdated": "2017-11-13"
+}
