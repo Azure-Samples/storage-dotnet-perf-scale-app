@@ -27,7 +27,7 @@ Start-Transcript
 Invoke-WebRequest "https://dot.net/v1/dotnet-install.ps1" -OutFile "./dotnet-install.ps1" 
 ./dotnet-install.ps1 -Channel 2.0 -InstallDir c:\dotnet
 
-# Install Post-Git
+# Install Posh-Git
 Write-host "Installing Posh-Git"
 Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -force
 
